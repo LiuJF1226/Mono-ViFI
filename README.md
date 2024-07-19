@@ -115,7 +115,7 @@ You can refer to config files for the training settings/parameters/paths. All tr
 
 Remember to modify related paths to your own. Take ResNet18 as an example, the training commands are as follows.
 
-Note: you can adjust `batch_size` according to your maximum GPU memory.
+Note: you can adjust `batch_size` in the config files according to your maximum GPU memory.
 
 ```shell
 ### Training with ResNet18 backbone (KITTI, 640x192)
