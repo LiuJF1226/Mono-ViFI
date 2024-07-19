@@ -1,0 +1,11 @@
+numpy
+opencv-python
+thop
+yacs
+timm
+scikit-image
+ConfigArgParse
+tensorboard
+joblib
+matplotlib
+h5py
