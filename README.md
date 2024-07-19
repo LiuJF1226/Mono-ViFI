@@ -200,6 +200,7 @@ Here the `--image_path` flag should be a directory containing several video fram
 ## <span id="acknowledgement">Related Projects</span>
 * [Monodepth2](https://github.com/nianticlabs/monodepth2) (ICCV 2019)
 * [ManyDepth](https://github.com/nianticlabs/manydepth) (CVPR 2021)
+* [Lite-Mono](https://github.com/noahzn/Lite-Mono) (CVPR 2023)
 * [PlaneDepth](https://github.com/svip-lab/PlaneDepth) (CVPR 2023)
 * [RA-Depth](https://github.com/hmhemu/RA-Depth) (ECCV 2022)
 * [BDEdepth](https://github.com/LiuJF1226/BDEdepth) (IEEE RA-L 2023)
