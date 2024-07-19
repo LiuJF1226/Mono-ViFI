@@ -1,0 +1,22 @@
+exp_name = ResNet18_KITTI_MR
+data_path = /data/juicefs_sharing_data/public_data/Datasets/KITTI/kitti_raw_data
+log_dir = /data/juicefs_sharing_data/jinfengliu/logs
+
+dataset = kitti
+width = 640
+height = 192
+backbone = ResNet18
+fuse_model_type = shared_encoder
+use_affine = True
+
+batch_size = 10
+num_epochs = 20
+lamda = 0.2
+lr_sche_type = step
+learning_rate = 1e-4
+decay_rate = 0.1
+decay_step = 15
+resume = True
+
+log_frequency = 400
+save_frequency = 400
