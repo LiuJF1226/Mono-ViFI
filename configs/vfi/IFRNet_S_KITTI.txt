@@ -1,0 +1,19 @@
+exp_name = IFRNet_S_KITTI
+data_path = /data/juicefs_sharing_data/public_data/Datasets/KITTI/kitti_raw_data
+log_dir = /data/juicefs_sharing_data/jinfengliu/logs
+pretrained_path = ./weights/IFRNet_S_Vimeo90K.pth
+
+dataset = kitti
+width = 640
+height = 192 
+vfi_scale = small
+
+lr_sche_type = cos
+learning_rate = 1e-4
+eta_min = 1e-5
+num_epochs = 150
+batch_size = 16
+resume = True
+
+log_frequency = 400
+save_frequency = 400
