@@ -1,0 +1,23 @@
+exp_name = DHRNet_KITTI_HR
+data_path = /data/juicefs_sharing_data/public_data/Datasets/KITTI/kitti_raw_data
+log_dir = /data/juicefs_sharing_data/11162925/jinfengliu/logs
+pretrained_path = our_models/DHRNet_KITTI_MR.pth
+
+dataset = kitti
+width = 1024
+height = 320
+backbone = DHRNet
+fuse_model_type = shared_encoder
+use_affine = True
+
+batch_size = 4
+num_epochs = 5
+lamda = 0.2
+lr_sche_type = step
+learning_rate = 1e-5
+decay_rate = 0.1
+decay_step = 5
+resume = True
+
+log_frequency = 800
+save_frequency = 800

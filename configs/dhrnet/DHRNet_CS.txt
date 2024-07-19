@@ -1,1 +1,23 @@
+exp_name = DHRNet_CS
+data_path = /data/juicefs_sharing_data/public_data/Datasets/cityscapes
+data_path_pre = /data/juicefs_sharing_data/public_data/Datasets/cityscapes_preprocessed
+log_dir = /data/juicefs_sharing_data/jinfengliu/logs
 
+dataset = cityscapes
+width = 512
+height = 192
+backbone = DHRNet
+fuse_model_type = shared_encoder
+use_affine = True
+
+batch_size = 6
+num_epochs = 15
+lamda = 0.2
+lr_sche_type = step
+learning_rate = 1e-4
+decay_rate = 0.1
+decay_step = 10
+resume = True
+
+log_frequency = 600
+save_frequency = 600
