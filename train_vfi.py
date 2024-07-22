@@ -304,7 +304,7 @@ class Trainer:
         to_save['vfi_scale'] = self.opt.vfi_scale 
 
         if ep_end:
-            save_ep_path = os.path.join(models_dir, "model{}.pth".format(self.epoch))
+            save_ep_path = os.path.join(models_dir, "model_{}.pth".format(self.epoch))
             torch.save(to_save, save_ep_path)  ## only save the model weights after each epoch
             to_save["epoch"] = self.epoch + 1
         else:
