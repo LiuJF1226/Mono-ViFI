@@ -202,7 +202,17 @@ python test_video.py --image_path folder --pretrained_path our_models/DHRNet_KIT
 Here the `--image_path` flag should be a directory containing several video frames. Note that these video frame files should be named in an ascending numerical order. For example, the first frame is named as `0000.png`, the second frame is named as `0001.png`, and etc. This command will also output a GIF file.
 
 ## <span id="weights">Mono-ViFI Weights</span>
-[link](https://huggingface.co/Viollette/Mono-ViFI/tree/main/Depth_weights)
+We provide our pretrained weights of depth models in this [link](https://huggingface.co/Viollette/Mono-ViFI/tree/main/Depth_weights), including 9 checkpoints:
+* ResNet18 backbone trained on KITTI with 640x192 : `ResNet18_KITTI_MR.pth`
+* ResNet18 backbone trained on KITTI with 1024x320 : `ResNet18_KITTI_HR.pth`
+* ResNet18 backbone trained on Cityscapes with 512x192 : `ResNet18_CS.pth`
+* Lite-Mono backbone trained on KITTI with 640x192 : `LiteMono_KITTI_MR.pth`
+* Lite-Mono backbone trained on KITTI with 1024x320 : `LiteMono_KITTI_HR.pth`
+* Lite-Mono backbone trained on Cityscapes with 512x192 : `LiteMono_CS.pth`
+* D-HRNet backbone trained on KITTI with 640x192 : `DHRNet_KITTI_MR.pth`
+* D-HRNet backbone trained on KITTI with 1024x320 : `DHRNet_KITTI_HR.pth`
+* D-HRNet backbone trained on Cityscapes with 512x192 : `DHRNet_CS.pth`
+Note that they are newly trained checkpoints whose evaluation indexes are slightly different from those reported in the paper.
 
 ## <span id="acknowledgement">Related Projects</span>
 * [Monodepth2](https://github.com/nianticlabs/monodepth2) (ICCV 2019)
