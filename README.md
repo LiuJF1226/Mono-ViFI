@@ -1,4 +1,4 @@
-<div id="top" align="center">
+![image](https://github.com/user-attachments/assets/2da1b5d5-7c45-4ee9-9e09-c9b6935b6f4e)<div id="top" align="center">
   
 # Mono-ViFI: A Unified Learning Framework for Self-supervised Single- and Multi-frame Monocular Depth Estimation
 <!-- **Mono-ViFI: A Unified Learning Framework for Self-supervised Single- and Multi-frame Monocular Depth Estimation** -->
@@ -7,8 +7,7 @@
 
   vivo Mobile Communication Co., Ltd
 
-  ECCV 2024 
-  <!-- [[paper link]](https://arxiv.org/abs/2309.05254) -->
+  ECCV 2024   [[arxiv]](https://arxiv.org/abs/2407.14126)
 
 <!-- <p align="center">
   <img src="assets/demo.gif" alt="example input output gif" width="450" />
@@ -81,7 +80,7 @@ Remember to modify `--dataset_dir` and `--dump_root` to your own path. The groun
 
 ## <span id="VFI">VFI Pre-training</span>
 
-Download the following 6 checkpoints related to VFI in this [link](https://www.dropbox.com/scl/fo/0zeefm9e4kv0fzumqp490/h?rlkey=ev09rshvarnoyj9kr1qymkppl&dl=0):
+Download the following 6 checkpoints related to VFI in this [link](https://huggingface.co/Viollette/Mono-ViFI/tree/main/VFI_weights):
 * small IFRNet pretrained on Vimeo90K dataset : `IFRNet_S_Vimeo90K.pth`
 * large IFRNet pretrained on Vimeo90K dataset : `IFRNet_L_Vimeo90K.pth`
 * small IFRNet pretrained on KITTI dataset : `IFRNet_S_KITTI.pth`
@@ -104,7 +103,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 ```
 
 ## <span id="training">Mono-ViFI Training</span>
-Before training, move another 2 checkpoints downloaded from this link to the folder `Mono-ViFI/weights/`:
+Before training, move the 2 checkpoints downloaded from this [link](https://huggingface.co/Viollette/Mono-ViFI/tree/main/ImageNet_weights) to the folder `Mono-ViFI/weights/`:
 * HRNet18 backbone pretrained on ImageNet : `HRNet_W18_C_cosinelr_cutmix_300epoch.pth.tar`
 * LiteMono backbone pretrained on ImageNet : `lite-mono-pretrain.pth`
 
@@ -195,7 +194,7 @@ python test_video.py --image_path folder --pretrained_path our_models/DHRNet_KIT
 Here the `--image_path` flag should be a directory containing several video frames. Note that these video frame files should be named in an ascending numerical order. For example, the first frame is named as `0000.png`, the second frame is named as `0001.png`, and etc. This command will also output a GIF file.
 
 ## <span id="weights">Mono-ViFI Weights</span>
-
+[link](https://huggingface.co/Viollette/Mono-ViFI/tree/main/Depth_weights)
 
 ## <span id="acknowledgement">Related Projects</span>
 * [Monodepth2](https://github.com/nianticlabs/monodepth2) (ICCV 2019)
