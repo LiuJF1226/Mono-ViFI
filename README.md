@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2da1b5d5-7c45-4ee9-9e09-c9b6935b6f4e)<div id="top" align="center">
+<div id="top" align="center">
   
 # Mono-ViFI: A Unified Learning Framework for Self-supervised Single- and Multi-frame Monocular Depth Estimation
 <!-- **Mono-ViFI: A Unified Learning Framework for Self-supervised Single- and Multi-frame Monocular Depth Estimation** -->
