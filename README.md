@@ -212,6 +212,7 @@ We provide our pretrained weights of depth models in this [link](https://hugging
 * D-HRNet backbone trained on KITTI with 640x192 : `DHRNet_KITTI_MR.pth`
 * D-HRNet backbone trained on KITTI with 1024x320 : `DHRNet_KITTI_HR.pth`
 * D-HRNet backbone trained on Cityscapes with 512x192 : `DHRNet_CS.pth`
+
 Note that they are newly trained checkpoints whose evaluation indexes are slightly different from those reported in the paper.
 
 ## <span id="acknowledgement">Related Projects</span>
