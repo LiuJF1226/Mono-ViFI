@@ -38,7 +38,15 @@ BDEdepth (HRNet18 640x192 KITTI) -->
 This is the official PyTorch implementation for Mono-ViFI, which is built on the codebase of [BDEdepth](https://github.com/LiuJF1226/BDEdepth). If you find our work useful in your research, please consider citing our paper:
 
 ```
-
+@misc{liu2024,
+      title={Mono-ViFI: A Unified Learning Framework for Self-supervised Single- and Multi-frame Monocular Depth Estimation}, 
+      author={Jinfeng Liu and Lingtong Kong and Bo Li and Zerong Wang and Hong Gu and Jinwei Chen},
+      year={2024},
+      eprint={2407.14126},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2407.14126}, 
+}
 ```
 
 
