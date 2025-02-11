@@ -3,7 +3,7 @@
 # Mono-ViFI: A Unified Learning Framework for Self-supervised Single- and Multi-frame Monocular Depth Estimation
 <!-- **Mono-ViFI: A Unified Learning Framework for Self-supervised Single- and Multi-frame Monocular Depth Estimation** -->
   
-  Jinfeng Liu, [Lingtong Kong](https://scholar.google.com/citations?hl=zh-CN&user=KKzKc_8AAAAJ), [Bo Li](https://libraboli.github.io/), Zerong Wang, Hong Gu and Jinwei Chen
+  [Jinfeng Liu](https://scholar.google.com/citations?hl=en&user=-moPItwAAAAJ), [Lingtong Kong](https://scholar.google.com/citations?hl=zh-CN&user=KKzKc_8AAAAJ), [Bo Li](https://libraboli.github.io/), Zerong Wang, Hong Gu and Jinwei Chen
 
   vivo Mobile Communication Co., Ltd
 
